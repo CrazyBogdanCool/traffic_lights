@@ -1,0 +1,7 @@
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\bin\Debug\Світлофор.exe.config
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\bin\Debug\Світлофор.exe
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\bin\Debug\Світлофор.pdb
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\obj\Debug\traffic_light.csproj.AssemblyReference.cache
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\obj\Debug\traffic_light.csproj.CoreCompileInputs.cache
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\obj\Debug\Світлофор.exe
+C:\Users\Богдан\source\repos\Світлофор\traffic_light\obj\Debug\Світлофор.pdb

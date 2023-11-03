@@ -1,7 +1,0 @@
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\obj\Debug\traffic_light.csproj.AssemblyReference.cache
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\obj\Debug\traffic_light.csproj.CoreCompileInputs.cache
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\bin\Debug\traffic_light.exe.config
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\bin\Debug\traffic_light.exe
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\bin\Debug\traffic_light.pdb
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\obj\Debug\traffic_light.exe
-C:\Users\Богдан\source\repos\traffic_light\traffic_light\obj\Debug\traffic_light.pdb

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A43A2AD4-5DBE-40B6-BD4E-7442AA7579F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>traffic_light</RootNamespace>
-    <AssemblyName>traffic_light</AssemblyName>
+    <RootNamespace>TrafficLight</RootNamespace>
+    <AssemblyName>TrafficLight</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

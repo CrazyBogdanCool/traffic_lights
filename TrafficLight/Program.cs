@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Світлофор
+namespace TrafficLight
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            trafficLights trafficlights = new trafficLights();
-            trafficlights.turnOn();
+            TrafficLight trafficLights = new TrafficLight();
+            trafficLights.TurnOn();
         }
     }
 }

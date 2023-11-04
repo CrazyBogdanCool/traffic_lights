@@ -5,23 +5,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Світлофор
+namespace TrafficLight
 {
-    internal class trafficLights : color
+    internal class Colors
     {
-        public void turnOn()
-        {
-            red(10000);
-            redYellow(2000, 2);
-            grean(10000, 0);
-            grean(1000, 4);
-            yellow(2000);
-            turnOn();
-        }
-    }
-    class color
-    {
-        public void noColor(int time)
+        public void NoColor(int time)
         {
             Console.WriteLine(@" 
                   &&&&&&&&&&&&&&&                 
@@ -47,7 +35,7 @@ namespace Світлофор
             Thread.Sleep(time);
             Console.Clear();
         }
-        public void grean(int time, int numOfOperations)
+        public void Grean(int time, int numOfOperations)
         {
             Console.WriteLine(@" 
                   &&&&&&&&&&&&&&&                 
@@ -76,10 +64,10 @@ namespace Світлофор
             {
                 return;
             }
-            noColor(time);
-            grean(time, numOfOperations - 1);
+            NoColor(time);
+            Grean(time, numOfOperations - 1);
         }
-        public void yellow(int time)
+        public void Yellow(int time)
         {
             Console.WriteLine(@" 
                   &&&&&&&&&&&&&&&                 
@@ -105,7 +93,7 @@ namespace Світлофор
             Thread.Sleep(time);
             Console.Clear();
         }
-        public void red(int time)
+        public void Red(int time)
         {
             Console.WriteLine(@" 
                   &&&&&&&&&&&&&&&                 
@@ -131,7 +119,7 @@ namespace Світлофор
             Thread.Sleep(time);
             Console.Clear();
         }
-        public void redYellow(int time, int numOfOperations)
+        public void RedYellow(int time, int numOfOperations)
         {
             if (numOfOperations <= 0)
             {
@@ -160,8 +148,8 @@ namespace Світлофор
                &&#################&& ");
             Thread.Sleep(time / 2);
             Console.Clear();
-            noColor(time / 2);
-            redYellow(time, numOfOperations - 1);
+            NoColor(time / 2);
+            RedYellow(time, numOfOperations - 1);
         }
     }
 }

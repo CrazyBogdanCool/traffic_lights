@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A43A2AD4-5DBE-40B6-BD4E-7442AA7579F8}</ProjectGuid>
+    <ProjectGuid>{92D93F05-C63D-49FF-8128-3253268C1946}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TrafficLight</RootNamespace>
-    <AssemblyName>TrafficLight</AssemblyName>
+    <RootNamespace>Traffic_Lights</RootNamespace>
+    <AssemblyName>Traffic_Lights</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Colors.cs" />
-    <Compile Include="TrafficLight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
